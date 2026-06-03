@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="我们说学生社区：每周辩题、往期热议与许愿墙互动原型。"
+    />
+    <title>我们说 · 说观点</title>
+    <link rel="preconnect" href="https://unpkg.com" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="brand-lockup">
+          <div class="brand-mark">W</div>
+          <div>
+            <p class="brand-name">我们说</p>
+            <p class="brand-caption">WE TALK · 校园观点社区</p>
+          </div>
+        </div>
+        <div class="header-actions">
+          <button class="icon-label-button" data-action="show-notice">
+            <i data-lucide="bell"></i>
+            <span>消息</span>
+          </button>
+          <button class="profile-button" aria-label="我的主页">
+            <span>林</span>
+          </button>
+        </div>
+      </header>
+      <main id="app"></main>
+      <footer class="site-footer">
+        <span>让每一种认真表达，都被好好听见。</span>
+        <span>社区公约 · 内容安全说明 · 联系我们</span>
+      </footer>
+    </div>
+    <div id="modal-root"></div>
+    <div id="toast-root" aria-live="polite"></div>
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
