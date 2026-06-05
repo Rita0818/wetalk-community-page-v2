@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="我们说·快闪墙：限时主题投稿活动与校园生活图文分享。"
+    />
+    <title>我们说 · 快闪墙</title>
+    <link rel="stylesheet" href="./flashwall.css" />
+  </head>
+  <body>
+    <div class="flash-shell">
+      <header class="flash-header">
+        <a class="brand-lockup" href="./index.html" aria-label="返回我们说首页">
+          <span class="brand-mark">W</span>
+          <span>
+            <span class="brand-name">我们说</span>
+            <span class="brand-caption">WE TALK · FLASH WALL</span>
+          </span>
+        </a>
+        <div class="header-center">
+          <p>我们说 · 快闪墙</p>
+          <span>限时主题投稿活动</span>
+        </div>
+        <div class="header-actions">
+          <a class="ghost-link" href="./index.html">
+            <i data-lucide="messages-square"></i>
+            <span>说观点</span>
+          </a>
+          <button class="avatar-button" type="button" aria-label="我的主页">林</button>
+        </div>
+      </header>
+
+      <main id="flash-app" class="flash-app"></main>
+    </div>
+
+    <div id="modal-root"></div>
+    <div id="toast-root" aria-live="polite"></div>
+    <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script src="./flashwall.js"></script>
+  </body>
+</html>
